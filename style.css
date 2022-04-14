@@ -1,0 +1,434 @@
+
+@import url('http://fonts.cdnfonts.com/css/uber-move-text');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    background-color: black;
+    height: 10vh;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.title{
+    color: white;
+    margin-left: 5vw;
+    font-size: 150%;
+    padding-right: 70vw;
+    font-family: 'Uber Move Text', sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+                                                    
+}
+
+.box1{
+    display: flex;
+    padding: 5px;
+    font-family: 'Uber Move Text', sans-serif;
+
+}
+
+.box1:hover{
+    border: 0.1px solid grey;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.item1{
+    padding-right: 1vw;
+}
+.item2{
+    color: white;
+    font-weight: bold;
+    font-size: small;
+    padding-top: 5px;
+    padding-right: 2px;
+}
+.box2{
+    color: black;
+    margin-left: 30px;
+    background-color: white;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 13px;
+    border-radius: 20px;
+    font-family: 'Uber Move Text', sans-serif;
+
+
+}
+
+.box2:hover{
+    background-color: #E2E2E2;
+    cursor: pointer;
+}
+
+.container1{
+    padding: 12vh;
+}
+
+.Text1{
+    font-size: 300%;
+    font-family: 'Uber Move Text', sans-serif;
+    font-weight:500;
+
+}
+.Text2{
+    font-family: 'Uber Move Text', sans-serif;
+    color: #757575;
+    padding-top: 1vh;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+}
+
+form{
+    padding-top: 7vh;
+}
+
+.Text3{
+    font-size: 150%;
+    font-family: 'Uber Move Text', sans-serif;
+    font-weight: 500 ;
+}
+
+.box3{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5vh;
+    gap: 1vw;
+    font-size: 16px;
+    font-family: 'Uber Move Text', sans-serif;
+    color: rgb(84, 84, 84);
+}
+
+.box4{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5vh;
+    height: 45px;
+    gap: 20px;
+}
+
+.name{
+    width: 200px;
+    background-color: #EEEEEE;
+    border: none;
+    font-size: 16px;
+    padding: 20px;
+    font-family: 'Uber Move Text', sans-serif;
+    font-weight: 400 ;
+}
+
+
+.name:focus{
+    border: 2px solid black;
+    outline: none;
+}
+
+.Email{
+    height: 10px;
+    margin-top: 20px;
+    width: 460px;
+    background-color: #EEEEEE;
+    border: none;
+    font-size: 16px;
+    padding: 20px;
+    font-family: 'Uber Move Text', sans-serif;
+    font-weight: 400 ;
+}
+.Email:focus{
+    border: 2px solid black;
+    outline: none;
+}
+.Password{
+    height: 10px;
+    margin-top: 20px;
+    width: 460px;
+    background-color: #EEEEEE;
+    border: none;
+    font-size: 16px;
+    padding: 20px;
+    font-family: 'Uber Move Text', sans-serif;
+    font-weight: 400 ;
+}
+.Password:focus{
+    border: 2px solid black;
+    outline: none;
+}
+.PhoneN{
+    height: 10px;
+    margin-top: 20px;
+    width: 460px;
+    background-color: #EEEEEE;
+    border: none;
+    font-size: 16px;
+    padding: 20px;
+    font-family: 'Uber Move Text', sans-serif;
+    font-weight: 400 ;
+}
+.PhoneN:focus{
+    border: 2px solid black;
+    outline: none;
+}
+.Location{
+    height: 10px;
+    margin-top: 20px;
+    width: 460px;
+    background-color: #EEEEEE;
+    border: none;
+    font-size: 16px;
+    padding: 20px;
+    font-family: 'Uber Move Text', sans-serif;
+    font-weight: 400 ;
+}
+.Location:focus{
+    border: 2px solid black;
+    outline: none;
+}
+
+.box5{
+    font-family: 'Uber Move Text', sans-serif;
+    padding-top: 30px;
+    color: black;
+    width: 460px;
+    font-size: 15px;
+}
+.box6{
+    font-size: 15px;
+    font-family: 'Uber Move Text', sans-serif;
+    padding-top: 25px;
+    color: black;
+    width: 460px;
+}
+
+.box7{
+    margin-top: 25px;
+    font-family: 'Uber Move Text', sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+.text6{
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    width: 180px;
+    height: 40px;
+    cursor: pointer;
+}
+.text7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Uber Move Text', sans-serif;
+    color: black;
+    margin-left: 20px;
+}
+footer{
+    background-color: black;
+    font-family: 'Uber Move Text', sans-serif;
+
+}
+.container3{
+    background-color : black;
+    color: white;
+    height: 120vh;
+    margin: auto;
+    width: 80vw;
+    /* border: 2px solid white; */
+}
+
+.box8{
+    padding-top: 5vh;
+    text-decoration: none;
+}
+.text7{
+    color: black;
+    float: right;
+    text-decoration: none;
+
+}
+.text8{
+    color: white;
+    float: right;
+    padding-top: 3vh;
+    text-decoration: none;
+
+}
+.box9{
+    margin-top: 7vh;
+
+}
+.text9{
+    color: white;
+    font-weight: 400;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.box10{
+    margin-top: 7vh;
+    margin-bottom: 10vh;
+}
+.text10{
+    color: white;
+    font-weight: 400;
+    font-size: 17px;
+    text-decoration: none;
+    
+}
+
+.smcnt1{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Uber Move Text', sans-serif;
+    color: white;
+}
+
+.smtitle1{
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.smtext1{
+    padding: 8px 0px 8px 0px;
+    font-size: 15px;
+
+}
+
+.smtext1:hover{
+    color: #AFAFAF;
+}
+
+
+.smtitle2{
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.smtext2{
+    padding: 8px 0px 8px 0px;
+    font-size: 15px;
+
+}
+.smtext2:hover{
+    color: #AFAFAF;
+}
+
+.smbox2{
+    margin-left: 15vw;
+}
+
+.smtitle3{
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.smtext3{
+    padding: 8px 0px 8px 0px;
+    font-size: 15px;
+
+}
+.smtext3:hover{
+    color: #AFAFAF;
+}
+
+.smbox3{
+    margin-left: 15vw;
+}
+
+.smtitle4{
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.smtext4{
+    padding: 8px 0px 8px 0px;
+    font-size: 15px;
+
+}
+.smtext4:hover{
+    color: #AFAFAF;
+}
+.smbox4{
+    margin-left: 15vw;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.smcnt2{
+    display: flex;
+    flex-direction: row;
+}
+
+.socialm{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10vh;
+    gap: 3.5vw;
+}
+
+.fa:hover {
+    opacity: 0.7;
+  }
+
+  .lang-loc{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10vh;
+    gap: 2vw;
+    margin-left: 10vw;
+  }
+
+  .globe{
+      padding-right: 5px;
+  }
+
+  span{
+      margin-left: 5px;
+      font-weight: 600;
+    font-family: 'Uber Move Text', sans-serif;
+
+  }
+
+  .cpright{
+      font-size: 12px;
+  }
+  .privacy{
+      float: right;
+      font-size: 12px;
+      /* letter-spacing: 2px; */
+  }
+
+  .smcnt3{
+      padding-top: 15vh;
+  }
+
+  .footerimg{
+      margin-left: 10vw;
+  }
+
+  .gp-logo{
+      margin-right: 10px;
+  }
